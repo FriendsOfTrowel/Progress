@@ -1,0 +1,40 @@
+{
+  "name": "trowel-progress",
+  "homepage": "https://github.com/FriendsOfTrowel/Progress",
+  "authors": [
+    "Loïc Goyet <loic@troopers.email>"
+  ],
+  "description": "The official Trowel Component for progress",
+  "main": [
+    "src/scss/progress.scss",
+    "src/twig/progres.html.twig",
+    "injector.json"
+  ],
+  "keywords": [
+    "scss",
+    "css",
+    "twig",
+    "html",
+    "trowel",
+    "trowel-progress",
+    "progres"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    ".bowerrc",
+    ".gitignore",
+    "gulpfile.babel.js",
+    "package.json",
+    "sache.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FriendsOfTrowel/Progress.git"
+  },
+  "dependencies": {
+    "trowel-core": "^4.0.2"
+  }
+}

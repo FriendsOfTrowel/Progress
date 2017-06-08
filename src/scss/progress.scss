@@ -1,0 +1,42 @@
+/**
+ * Progress
+ */
+
+@import 'utils/syntaxes';
+@import 'utils/trowel-variables';
+
+$progress--selector: selector(new 'progress' with $progress--syntax);
+
+@include statement($progress--selector, (
+  ('font-size', $progress--font-size),
+  ('font-family', $progress--font-family),
+  ('font-weight', $progress--font-weight),
+  ('text-transform', $progress--text-transform),
+  ('letter-spacing', $progress--letter-spacing),
+  ('text-decoration', $progress--text-decoration),
+  ('margin', $progress--margin),
+  ('border-width', $progress--border-width),
+  ('border-style', $progress--border-style),
+  ('border-color', $progress--border-color),
+  ('border-radius', $progress--border-radius),
+  ('box-shadow', $progress--box-shadow),
+  ('background-color', $progress--background-color),
+  ('height', $progress--height),
+  ('line-height', $progress--line-height),
+  ('overflow', hidden),
+  ('display', flex),
+  ('color', $progress--color),
+));
+
+
+$progress-bars--selector: selector(set $progress--selector element 'bar');
+
+@include statement($progress-bars--selector, (
+  ('box-sizing', border-box),
+  ('padding', $progress--padding),
+  ('font-size', $progress-bar--font-size),
+  ('background-color', $progress-bar--background-color),
+  ('display', flex),
+  ('justify-content', $progress-bar--justify-content),
+  ('align-items', $progress-bar--align-items),
+));

@@ -1,0 +1,9 @@
+{
+  "name": "trowel-progress",
+  "description": "The official Trowel Component for progress",
+  "tags": [
+    "ui",
+    "trowel",
+    "progress"
+  ]
+}

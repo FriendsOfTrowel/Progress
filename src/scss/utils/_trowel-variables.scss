@@ -1,0 +1,39 @@
+$progress--font-size: (
+  'default': trwl-theme-size('md'),
+  '-xs': trwl-theme-size('xs'),
+  '-sm': trwl-theme-size('sm'),
+  '-lg': trwl-theme-size('lg'),
+) !default;
+$progress--font-family: null !default;
+$progress--font-weight: null !default;
+$progress--text-transform: null !default;
+$progress--letter-spacing: null !default;
+$progress--text-decoration: null !default;
+$progress--margin: 0 0 1em !default;
+$progress--border-width: null !default;
+$progress--border-style: null !default;
+$progress--border-color: null !default;
+$progress--border-radius: 0.25em !default;
+$progress--box-shadow: null !default;
+$progress--background-color: trwl-theme-color('gray-medium') !default;
+$progress--height: (
+  '-xs': 0.5em,
+  '-sm': 0.75em,
+  'default': 1em,
+  '-lg': 1.5em,
+);
+$progress--padding: 0 trwl-theme('padding-x') !default;
+$progress--line-height: trwl-theme('line-height') !default;
+$progress--color: rgb(255, 255, 255) !default;
+
+$progress-bar--background-color: (
+  'default': trwl-theme-color('primary'),
+  '-primary': trwl-theme-color('primary'),
+  '-success': trwl-theme-color('success'),
+  '-warning': trwl-theme-color('warning'),
+  '-danger': trwl-theme-color('danger'),
+) !default;
+$progress-bar--padding: trwl-theme('padding-y') trwl-theme('padding-x') !default;
+$progress-bar--font-size: 0.8em !default;
+$progress-bar--justify-content: flex-end !default;
+$progress-bar--align-items: center !default;
