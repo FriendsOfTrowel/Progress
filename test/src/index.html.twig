@@ -15,20 +15,20 @@
         Progress
     </h1>
 
-    {% include '../../src/twig/progres.html.twig' with {
+    {% include '../../src/twig/progress.html.twig' with {
         "min": 0,
         "max": 100,
         "now": 25,
     } %}
 
-    {% include '../../src/twig/progres.html.twig' with {
+    {% include '../../src/twig/progress.html.twig' with {
         "modifiers": ["primary"],
         "min": 0,
         "max": 100,
         "now": 33,
     } %}
 
-    {% embed '../../src/twig/progres.html.twig' with {
+    {% embed '../../src/twig/progress.html.twig' with {
         "modifiers": ["primary"],
         "min": 0,
         "max": 100,
@@ -37,21 +37,21 @@
         {% block label %}33%{% endblock %}
     {% endembed %}
 
-    {% include '../../src/twig/progres.html.twig' with {
+    {% include '../../src/twig/progress.html.twig' with {
         "modifiers": ["success"],
         "min": 0,
         "max": 100,
         "now": 50,
     } %}
 
-    {% include '../../src/twig/progres.html.twig' with {
+    {% include '../../src/twig/progress.html.twig' with {
         "modifiers": ["warning"],
         "min": 0,
         "max": 100,
         "now": 66,
     } %}
 
-    {% include '../../src/twig/progres.html.twig' with {
+    {% include '../../src/twig/progress.html.twig' with {
         "modifiers": ["danger"],
         "min": 0,
         "max": 100,
@@ -60,28 +60,28 @@
 
     <hr>
 
-    {% include '../../src/twig/progres.html.twig' with {
+    {% include '../../src/twig/progress.html.twig' with {
         "modifiers": ["xs"],
         "min": 0,
         "max": 100,
         "now": 20,
     } %}
 
-    {% include '../../src/twig/progres.html.twig' with {
+    {% include '../../src/twig/progress.html.twig' with {
         "modifiers": ["sm"],
         "min": 0,
         "max": 100,
         "now": 40,
     } %}
 
-    {% include '../../src/twig/progres.html.twig' with {
+    {% include '../../src/twig/progress.html.twig' with {
         "modifiers": ["md"],
         "min": 0,
         "max": 100,
         "now": 60,
     } %}
 
-    {% include '../../src/twig/progres.html.twig' with {
+    {% include '../../src/twig/progress.html.twig' with {
         "modifiers": ["lg"],
         "min": 0,
         "max": 100,
