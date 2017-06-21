@@ -21,7 +21,7 @@ $progress--height: (
   '-sm': 0.75em,
   'default': 1em,
   '-lg': 1.5em,
-);
+) !default;
 $progress--padding: 0 trwl-theme('padding-x') !default;
 $progress--line-height: trwl-theme('line-height') !default;
 $progress--color: rgb(255, 255, 255) !default;
